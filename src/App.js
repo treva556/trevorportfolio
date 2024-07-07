@@ -16,8 +16,11 @@ function App() {
             <img src={image11} alt="Description of Image 11" className="w-" />
           </div>
         </div>
-        <div>hh</div>
-        <div>hh</div>
+        <h3 className=' text-2xl h-52'> About Me</h3>
+        <h4 className=' text-2xl h-64'> About Me</h4>
+        <h5 className=' text-2xl'> About Me</h5>
+        
+
       </div>
     </div>
   );
