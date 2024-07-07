@@ -10,7 +10,7 @@ function App() {
       <div className="bg-white h-screen">
         <div className="flex items-center justify-center space-x-8 my-20">
           <div>
-            <h1 className="text-8xl">Innovating excellence</h1>
+            <h1 className="text-4xl">Innovating excellence</h1>
           </div>
           <div>
             <img src={image11} alt="Description of Image 11" className="w-" />
