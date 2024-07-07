@@ -4,9 +4,12 @@ import './App.css';
 function App() {
   return (
     <div className="App">
-
-      <h1>PORTFOLIO</h1>
+<div className=' bg-blue-900 h-screen'>
+      <h1 className=' text-white'>PORTFOLIO</h1>
       <p>Hello world</p>
+      
+
+</div>
       
 
 
