@@ -7,23 +7,26 @@ function App() {
   return (
     <div className="App">
       <Nav />
-      <div className="bg-white h-screen">
-        <div className="flex items-center justify-center space-x-2 my-20 w-screen  ">
+      <div className="bg-white min-h-screen">
+        <div className="flex space-x-2 my-20">
           <div>
-            <h1 className="text-8xl">Innovating excellence</h1>
+            <h1 className="text-5xl">Innovating excellence</h1>
           </div>
           <div>
-            <img src={image11} alt="Description of Image 11" className="w-" />
+            <img src={image11} alt="Description of Image 11" className="w-full" />
           </div>
         </div>
-        <div className=' bg-blue-950'>
-        <h3 className=' text-white font-bold text-2xl h-52'> About Me</h3>
-        <h4 className=' text-white text-2xl h-64'> Services</h4>
-        <h4 className='  text-white text-2xl h-64'>Previous Projects</h4>
-
-        <h5 className=' text-white text-2xl h-64'> Contacts</h5>
+        <div className='bg-blue-950'>
+        <div className='border border-white p-4 mt-4 flex flex-col justify-start h-64'>
+            <h4 className='text-white text-2xl'>About me</h4>
+          </div> 
+          <div className='border border-white p-4 mt-4 flex flex-col justify-start h-64'>
+            <h4 className='text-white text-2xl'>Services</h4>
+          </div> 
+          <div className='border border-white p-4 mt-4 flex flex-col justify-start h-64'>
+            <h4 className='text-white text-2xl'>Previous Projects</h4>
+          </div> 
         </div>
-
       </div>
     </div>
   );
